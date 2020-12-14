@@ -1,0 +1,11 @@
+<div>
+    <h3>
+        Name:{{firstname | uppercase}} <br />
+        Salary:{{salary | currency :'INR'}} <br />
+        DOB:{{dob | date}} <br />
+        DOB:{{dob | date: 'yyyy-mm-dd'}} <br />
+        
+        size of name:{{firstname | findLength}} <br />
+        Person Title:{{firstname | personTitle: 'M'}}
+    </h3>
+</div>
